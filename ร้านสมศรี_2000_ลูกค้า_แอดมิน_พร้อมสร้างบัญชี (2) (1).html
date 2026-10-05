@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ร้านสมศรี 2000 | Online Store</title>
+<style>
+:root{--brand:#ef4444;--brand2:#f97316;--dark:#172033;--muted:#667085;--bg:#f6f7fb;--card:#fff;--line:#e8eaf0;--green:#16a34a;--shadow:0 12px 35px rgba(23,32,51,.09)}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--dark);font-family:"Noto Sans Thai",Tahoma,Arial,sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}.top{background:#171717;color:#fff;font-size:13px}.topin{max-width:1280px;margin:auto;padding:8px 22px;display:flex;justify-content:space-between}.header{background:#fff;position:sticky;top:0;z-index:20;border-bottom:1px solid var(--line)}.nav{max-width:1280px;margin:auto;padding:15px 22px;display:flex;align-items:center;gap:14px}.brand{display:flex;align-items:center;gap:10px;margin-right:12px;white-space:nowrap}.logo{width:46px;height:46px;border-radius:14px;background:linear-gradient(135deg,var(--brand),var(--brand2));display:grid;place-items:center;color:#fff;font-size:25px;box-shadow:0 7px 18px #ef444433}.brand b{font-size:21px}.brand small{display:block;color:var(--muted);font-size:11px}.search{flex:1;max-width:540px;position:relative}.search input{width:100%;border:1px solid #dddfe6;border-radius:13px;padding:12px 45px 12px 16px;outline:0;background:#fafafa}.search button{position:absolute;right:5px;top:5px;border:0;background:var(--brand);color:#fff;border-radius:9px;width:35px;height:35px}.navbtn{border:0;background:#fff;color:#374151;border-radius:11px;padding:10px 12px;font-weight:700}.navbtn:hover{background:#f4f5f7}.cartbtn{position:relative}.count{position:absolute;right:1px;top:1px;background:var(--brand);color:#fff;border-radius:99px;font-size:10px;min-width:18px;height:18px;display:grid;place-items:center}.hero{max-width:1280px;margin:22px auto 0;padding:0 22px}.heroBox{min-height:330px;border-radius:25px;overflow:hidden;position:relative;background:linear-gradient(100deg,#141414 5%,#333 55%,#111);display:flex;align-items:center}.heroBox:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.82),rgba(0,0,0,.18)),url('https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1800&q=85') center/cover}.heroText{position:relative;z-index:1;color:#fff;padding:45px;max-width:610px}.heroText .pill{display:inline-block;background:#ffffff1f;border:1px solid #ffffff33;border-radius:99px;padding:7px 13px;font-size:13px}.heroText h1{font-size:44px;line-height:1.15;margin:15px 0 10px}.heroText p{color:#e8e8e8;line-height:1.7}.cta{background:var(--brand);border:0;color:#fff;padding:12px 20px;border-radius:12px;font-weight:800;box-shadow:0 8px 20px #ef444455}.wrap{max-width:1280px;margin:auto;padding:0 22px}.section{padding-top:30px}.sectionHead{display:flex;align-items:end;justify-content:space-between;margin-bottom:16px}.sectionHead h2{margin:0;font-size:25px}.muted{color:var(--muted);font-size:13px}.chips{display:flex;gap:9px;overflow:auto;padding-bottom:5px}.chip{white-space:nowrap;border:1px solid var(--line);background:#fff;border-radius:99px;padding:10px 15px;color:#475467}.chip.active{background:#171717;color:#fff;border-color:#171717}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.product{background:#fff;border:1px solid #eceef3;border-radius:18px;overflow:hidden;transition:.2s;position:relative}.product:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.pic{height:205px;position:relative;background:#eee;overflow:hidden}.pic img{width:100%;height:100%;object-fit:cover;transition:.35s}.adminImg{width:60px;height:50px;object-fit:cover;border-radius:9px;border:1px solid var(--line)}.imgActions{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.filebtn{display:inline-block;border:0;background:#eef1f5;color:#344054;border-radius:9px;padding:7px 10px;font-weight:700;font-size:12px;cursor:pointer}.filebtn input{display:none}.product:hover .pic img{transform:scale(1.04)}.tag{position:absolute;left:11px;top:11px;background:#fff;color:#dc2626;border-radius:8px;padding:5px 9px;font-size:11px;font-weight:800;box-shadow:0 3px 12px #0002}.heart{position:absolute;right:10px;top:10px;width:34px;height:34px;border:0;border-radius:50%;background:#fff;box-shadow:0 3px 12px #0002}.pbody{padding:14px}.pbody h3{font-size:16px;margin:2px 0 5px}.stars{font-size:12px;color:#f59e0b}.price{font-size:20px;font-weight:900;color:var(--brand)}.unit{font-size:12px;color:var(--muted);margin-left:4px}.pfoot{display:flex;align-items:center;justify-content:space-between;margin-top:12px}.add{border:0;background:#171717;color:#fff;border-radius:10px;padding:9px 12px;font-weight:800}.banner{margin-top:28px;border-radius:18px;padding:22px;background:linear-gradient(90deg,#fff0f0,#fff7ed);border:1px solid #fee2e2;display:flex;justify-content:space-between;align-items:center}.banner b{font-size:22px}.footer{margin-top:55px;background:#171717;color:#fff;padding:40px 0}.footerGrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}.footer p,.footer li{color:#b9bec8;font-size:13px;line-height:1.8}.footer ul{padding:0;list-style:none}.modal{position:fixed;inset:0;background:#0009;display:none;align-items:center;justify-content:center;padding:18px;z-index:50}.modal.show{display:flex}.modalbox{background:#fff;width:min(760px,100%);max-height:92vh;overflow:auto;border-radius:22px;padding:24px;box-shadow:0 30px 80px #0005}.close{float:right;border:0;background:#f2f3f5;border-radius:50%;width:35px;height:35px}.field{margin:12px 0}.field label{display:block;font-weight:800;margin-bottom:6px}.field input,.field select,.field textarea{width:100%;border:1px solid #dfe2e8;border-radius:11px;padding:11px;outline:0}.primary{border:0;background:var(--brand);color:#fff;border-radius:11px;padding:11px 17px;font-weight:800}.secondary{border:0;background:#eef1f5;color:#344054;border-radius:11px;padding:11px 17px;font-weight:800}.danger{border:0;background:#fee2e2;color:#b91c1c;border-radius:10px;padding:8px 11px;font-weight:800}.cartrow{display:grid;grid-template-columns:70px 1fr auto auto;gap:12px;align-items:center;padding:13px 0;border-bottom:1px solid var(--line)}.cartrow img{width:70px;height:60px;border-radius:10px;object-fit:cover}.qty{display:flex;align-items:center;gap:7px}.qty button{width:30px;height:30px;border:1px solid #ddd;border-radius:8px;background:#fff}.totalbox{background:#fafafa;border-radius:15px;padding:16px;margin-top:15px}.order{border:1px solid var(--line);border-radius:17px;padding:17px;margin:12px 0;background:#fff}.status{display:inline-block;border-radius:99px;padding:6px 10px;background:#fff7ed;color:#c2410c;font-size:12px;font-weight:800}.timeline{display:flex;justify-content:space-between;gap:5px;margin:22px 0}.step{flex:1;text-align:center;font-size:11px;color:#98a2b3}.dot{margin:auto auto 7px;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#e9edf2}.step.done{color:#15803d}.step.done .dot{background:#16a34a;color:#fff}.adminStats{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.stat{background:#fff;border:1px solid var(--line);border-radius:17px;padding:18px}.stat b{font-size:27px;display:block;margin-top:4px}.tablewrap{overflow:auto;background:#fff;border-radius:17px;border:1px solid var(--line)}table{border-collapse:collapse;width:100%;min-width:700px}th,td{text-align:left;padding:13px;border-bottom:1px solid var(--line);font-size:13px}.card{background:#fff;border:1px solid var(--line);border-radius:17px;padding:18px}.row{display:flex;align-items:center;gap:10px}.toast{position:fixed;right:20px;bottom:20px;background:#171717;color:#fff;padding:13px 17px;border-radius:12px;z-index:80;box-shadow:0 12px 30px #0003;display:none}.empty{text-align:center;padding:55px 15px;background:#fff;border-radius:18px;border:1px dashed #d9dde5}.empty .ico{font-size:45px}@media(max-width:1000px){.grid{grid-template-columns:repeat(3,1fr)}.search{max-width:360px}.adminStats{grid-template-columns:repeat(2,1fr)}}@media(max-width:720px){.topin{display:none}.nav{flex-wrap:wrap;padding:10px 14px}.brand{margin-right:auto}.search{order:3;flex-basis:100%;max-width:none}.navbtn span.txt{display:none}.hero{padding:0 12px}.heroBox{min-height:390px}.heroText{padding:30px 24px}.heroText h1{font-size:33px}.wrap{padding:0 14px}.grid{grid-template-columns:repeat(2,1fr);gap:12px}.pic{height:165px}.footerGrid{grid-template-columns:1fr}.cartrow{grid-template-columns:55px 1fr}.cartrow .qty,.cartrow .lineprice{grid-column:2}.adminStats{grid-template-columns:1fr 1fr}.banner{display:block}.banner button{margin-top:12px}}@media(max-width:430px){.grid{grid-template-columns:1fr 1fr}.pbody{padding:11px}.pbody h3{font-size:14px}.price{font-size:17px}}
+</style>
+</head>
+<body>
+<div class="top"><div class="topin"><span>🚚 ส่งทั่วพื้นที่ที่ร้านกำหนด</span><span>☎️ ติดต่อร้าน · เปิดทุกวัน 08:00–20:00 น.</span></div></div>
+<header class="header"><div class="nav"><div class="brand" onclick="showShop()"><div class="logo">🍢</div><div><b>ร้านสมศรี 2000</b><small>ลูกชิ้น • ของแปรรูป • อาหารแช่แข็ง</small></div></div><div class="search"><input id="search" placeholder="ค้นหาสินค้า เช่น ลูกชิ้นหมู, เกี๊ยวซ่า..." onkeydown="if(event.key==='Enter')searchProducts()"><button onclick="searchProducts()">⌕</button></div><button class="navbtn" onclick="showShop()">หน้าแรก</button><button class="navbtn" onclick="showOrders()">🧾 <span class="txt">ออเดอร์</span></button><button class="navbtn cartbtn" onclick="showCart()">🛒<span class="txt"> ตะกร้า</span><i class="count" id="cartCount">0</i></button><button class="navbtn" id="accountBtn" onclick="openLogin()">👤 เข้าสู่ระบบ</button><button class="navbtn" id="adminBtn" onclick="showAdmin()" style="display:none">⚙️ แอดมิน</button><button class="navbtn" id="logoutBtn" onclick="logout()" style="display:none">🚪 ออกจากระบบ</button></div></header>
+<main id="app"></main>
+<footer class="footer"><div class="wrap footerGrid"><div><div class="brand"><div class="logo">🍢</div><div><b style="color:#fff">ร้านสมศรี 2000</b><small style="color:#98a2b3">Online Store</small></div></div><p>ร้านค้าออนไลน์สำหรับลูกชิ้น ของแปรรูป น้ำจิ้ม และอาหารแช่แข็ง เลือกซื้อสินค้าได้สะดวก พร้อมระบบตะกร้าและติดตามคำสั่งซื้อ</p></div><div><b>บริการลูกค้า</b><ul><li>วิธีสั่งซื้อสินค้า</li><li>ติดตามคำสั่งซื้อ</li><li>ติดต่อร้าน</li></ul></div><div><b>ข้อมูลร้าน</b><ul><li>สินค้าแนะนำ</li><li>โปรโมชั่น</li><li>อาหารแช่แข็ง</li></ul></div></div></footer>
+<div id="modal" class="modal"><div id="modalBox" class="modalbox"></div></div><div id="toast" class="toast"></div>
+<script>
+const DEFAULT_PRODUCTS=[
+{id:1,name:"ลูกชิ้นหมูปิ้ง",price:10,unit:"ไม้",category:"ลูกชิ้นหมู",img:"https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=85",desc:"ลูกชิ้นหมูปิ้ง ไม้ละ 5 ลูก",recommended:true},
+{id:2,name:"น้ำจิ้มสุกี้",price:25,unit:"ขวด",category:"น้ำจิ้มและน้ำซุป",img:"https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=85",desc:"น้ำจิ้มรสเข้มข้นสำหรับสุกี้และชาบู",recommended:true},
+{id:3,name:"ก๋วยเตี๋ยวลูกชิ้นน้ำใส",price:40,unit:"ชาม",category:"เมนูพร้อมทาน",img:"https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=85",desc:"เมนูพร้อมทาน ร้อน ๆ รสกลมกล่อม",recommended:true},
+{id:4,name:"ลูกชิ้นหมูเด้ง",price:65,unit:"แพ็ก",category:"ลูกชิ้นหมู",img:"https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",desc:"ลูกชิ้นหมูเนื้อนุ่ม เด้งกำลังดี",recommended:true},
+{id:5,name:"ลูกชิ้นปลากราย",price:90,unit:"แพ็ก",category:"ลูกชิ้นปลาและอาหารทะเล",img:"https://images.unsplash.com/photo-1539755530862-00f623c2e3b7?auto=format&fit=crop&w=900&q=85",desc:"ลูกชิ้นปลากราย เนื้อแน่น",recommended:true},
+{id:6,name:"ชุดลูกชิ้นสุกี้ ชาบู",price:129,unit:"ชุด",category:"เมนูพร้อมทาน",img:"https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",desc:"ชุดรวมสำหรับสุกี้และชาบู",recommended:true},
+{id:7,name:"น้ำจิ้มลูกชิ้นปิ้ง สูตรหวาน",price:20,unit:"ถุง",category:"น้ำจิ้มและน้ำซุป",img:"https://images.unsplash.com/photo-1472476442910-2a035b5a8f09?auto=format&fit=crop&w=900&q=85",desc:"สูตรหวาน หอม อร่อย"},
+{id:8,name:"ลูกชิ้นทอด",price:20,unit:"ถุง",category:"เมนูพร้อมทาน",img:"https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=900&q=85",desc:"ทอดใหม่ กรอบนอกนุ่มใน"},
+{id:9,name:"น้ำจิ้มซีฟู้ด",price:30,unit:"ขวด",category:"น้ำจิ้มและน้ำซุป",img:"https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=85",desc:"รสจัดจ้าน เปรี้ยวเผ็ดกำลังดี"},
+{id:10,name:"ปูอัด",price:35,unit:"แพ็ก",category:"ลูกชิ้นปลาและอาหารทะเล",img:"https://images.unsplash.com/photo-1534482421-64566f976cfa?auto=format&fit=crop&w=900&q=85",desc:"ปูอัดเนื้อนุ่ม เหมาะกับชาบู"},
+{id:11,name:"น้ำซุปกระดูกหมู",price:35,unit:"ถุง",category:"น้ำจิ้มและน้ำซุป",img:"https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",desc:"น้ำซุปเข้มข้นสำหรับชาบู"},
+{id:12,name:"เต้าหู้ปลา",price:45,unit:"แพ็ก",category:"ลูกชิ้นปลาและอาหารทะเล",img:"https://images.unsplash.com/photo-1539755530862-00f623c2e3b7?auto=format&fit=crop&w=900&q=85",desc:"เต้าหู้ปลาเนื้อนุ่ม"},
+{id:13,name:"หมูยอ",price:45,unit:"แท่ง",category:"ไส้กรอกและของแปรรูป",img:"https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=85",desc:"หมูยอเนื้อแน่น"},
+{id:14,name:"ลูกชิ้นไก่",price:60,unit:"แพ็ก",category:"ลูกชิ้นเนื้อและไก่",img:"https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=900&q=85",desc:"ลูกชิ้นไก่รสนุ่ม"},
+{id:15,name:"ไส้กรอกหมูรมควัน",price:70,unit:"แพ็ก",category:"ไส้กรอกและของแปรรูป",img:"https://images.unsplash.com/photo-1524438418049-ab2acb7aa48f?auto=format&fit=crop&w=900&q=85",desc:"หอมกลิ่นรมควัน"},
+{id:16,name:"ลูกชิ้นหมูเอ็น",price:75,unit:"แพ็ก",category:"ลูกชิ้นหมู",img:"https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=85",desc:"ลูกชิ้นหมูผสมเอ็น กรุบอร่อย"},
+{id:17,name:"ไส้กรอกอีสาน",price:80,unit:"แพ็ก",category:"ไส้กรอกและของแปรรูป",img:"https://images.unsplash.com/photo-1524438418049-ab2acb7aa48f?auto=format&fit=crop&w=900&q=85",desc:"รสเปรี้ยวกลมกล่อม"},
+{id:18,name:"ลูกชิ้นเนื้อวัว",price:85,unit:"แพ็ก",category:"ลูกชิ้นเนื้อและไก่",img:"https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=85",desc:"ลูกชิ้นเนื้อวัวเนื้อแน่น"},
+{id:19,name:"ลูกชิ้นปลาหมึก",price:95,unit:"แพ็ก",category:"ลูกชิ้นปลาและอาหารทะเล",img:"https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=900&q=85",desc:"ลูกชิ้นปลาหมึก หอมทะเล"},
+{id:20,name:"ลูกชิ้นกุ้ง",price:110,unit:"แพ็ก",category:"ลูกชิ้นปลาและอาหารทะเล",img:"https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=900&q=85",desc:"ลูกชิ้นกุ้ง เนื้อเด้ง"},
+{id:101,name:"เกี๊ยวซ่าแช่แข็ง",price:59,unit:"แพ็ก",category:"อาหารแช่แข็ง",img:"https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=900&q=85",desc:"เกี๊ยวซ่าแช่แข็ง พร้อมทอดหรือนึ่ง"},
+{id:102,name:"กุ้งชุบแป้งแช่แข็ง",price:89,unit:"แพ็ก",category:"อาหารแช่แข็ง",img:"https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=900&q=85",desc:"กุ้งชุบแป้งพร้อมทอด"},
+{id:103,name:"ปลาหมึกแช่แข็ง",price:99,unit:"แพ็ก",category:"อาหารแช่แข็ง",img:"https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=900&q=85",desc:"ปลาหมึกแช่แข็งสำหรับทำอาหาร"},
+{id:104,name:"ปีกไก่แช่แข็ง",price:79,unit:"แพ็ก",category:"อาหารแช่แข็ง",img:"https://images.unsplash.com/photo-1608039755401-742074f0548d?auto=format&fit=crop&w=900&q=85",desc:"ปีกไก่แช่แข็ง เหมาะสำหรับทอดหรืออบ"},
+{id:105,name:"นักเก็ตไก่แช่แข็ง",price:69,unit:"แพ็ก",category:"อาหารแช่แข็ง",img:"https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=900&q=85",desc:"นักเก็ตไก่แช่แข็ง ทอดง่าย"},
+{id:106,name:"เฟรนช์ฟรายส์แช่แข็ง",price:59,unit:"แพ็ก",category:"อาหารแช่แข็ง",img:"https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=85",desc:"เฟรนช์ฟรายส์แช่แข็ง พร้อมทอด"},
+{id:107,name:"หมูหมักแช่แข็ง",price:89,unit:"แพ็ก",category:"อาหารแช่แข็ง",img:"https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=900&q=85",desc:"หมูหมักแช่แข็ง พร้อมย่างหรือทำอาหาร"},
+{id:108,name:"เบคอนแช่แข็ง",price:109,unit:"แพ็ก",category:"อาหารแช่แข็ง",img:"https://images.unsplash.com/photo-1606851094655-b2597a3b4f5f?auto=format&fit=crop&w=900&q=85",desc:"เบคอนแช่แข็ง สำหรับทำอาหาร"},
+{id:109,name:"ผักรวมแช่แข็ง",price:49,unit:"แพ็ก",category:"อาหารแช่แข็ง",img:"https://images.unsplash.com/photo-1597362925123-77861d3fbac7?auto=format&fit=crop&w=900&q=85",desc:"ผักรวมแช่แข็ง สะดวกสำหรับทำอาหาร"},
+{id:110,name:"กุ้งแช่แข็ง",price:129,unit:"แพ็ก",category:"อาหารแช่แข็ง",img:"https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=900&q=85",desc:"กุ้งแช่แข็งสำหรับทำอาหารและชาบู"}
+];
+let products=JSON.parse(localStorage.getItem('somsri_products')||'null')||DEFAULT_PRODUCTS;
+let users=JSON.parse(localStorage.getItem('somsri_users')||'[]');
+let staffAccounts=JSON.parse(localStorage.getItem('somsri_staff_accounts')||'[]');
+let orders=JSON.parse(localStorage.getItem('somsri_orders')||'[]');
+let user=JSON.parse(localStorage.getItem('somsri_user')||'null');
+let cart=JSON.parse(localStorage.getItem('somsri_cart')||'[]');
+
+// บัญชีระบบ 2 ระดับ
+const systemAccounts={
+  admin:{email:'admin@somsri2000.local',password:'admin123',name:'แอดมินร้าน',role:'admin'},
+  manager:{email:'manager@somsri2000.local',password:'manager123',name:'ผู้ดูแลระบบ',role:'manager'}
+};
+function money(n){return Number(n).toLocaleString('th-TH')+' บาท'}
+function save(){localStorage.setItem('somsri_products',JSON.stringify(products));localStorage.setItem('somsri_users',JSON.stringify(users));localStorage.setItem('somsri_staff_accounts',JSON.stringify(staffAccounts));localStorage.setItem('somsri_orders',JSON.stringify(orders));localStorage.setItem('somsri_cart',JSON.stringify(cart));localStorage.setItem('somsri_user',JSON.stringify(user));updateHeader()}
+function toast(t){let e=document.getElementById('toast');e.textContent=t;e.style.display='block';clearTimeout(window.tt);window.tt=setTimeout(()=>e.style.display='none',2200)}
+function isStaff(){return user?.role==='admin'||user?.role==='manager'}
+function canManageProducts(){return user?.role==='admin'}
+function canManageOrders(){return isStaff()}
+function updateHeader(){
+  document.getElementById('cartCount').textContent=cart.reduce((a,b)=>a+b.qty,0);
+  document.getElementById('accountBtn').textContent=user?'👤 '+user.name:'👤 เข้าสู่ระบบ';
+  document.getElementById('adminBtn').style.display=isStaff()?'block':'none';document.getElementById('accountBtn').title=user?.role==='customer'?'บัญชีลูกค้า':'บัญชีเจ้าหน้าที่';
+  document.getElementById('adminBtn').textContent=user?.role==='admin'?'⚙️ แอดมิน':'🛡️ ผู้ดูแลระบบ';
+  document.getElementById('logoutBtn').style.display=user?'block':'none';
+}
+function productCard(p){return `<article class="product"><div class="pic"><img src="${p.img}" loading="lazy" onerror="this.src='https://via.placeholder.com/800x600?text=Somsri+2000'"><span class="tag">${p.category==='อาหารแช่แข็ง'?'❄️ แช่แข็ง':p.recommended?'⭐ แนะนำ':'ขายดี'}</span><button class="heart">♡</button></div><div class="pbody"><div class="stars">★★★★★ <span class="muted">4.9</span></div><h3>${p.name}</h3><div class="muted">${p.desc||''}</div><div class="pfoot"><div><span class="price">${money(p.price).replace(' บาท','')}</span><span class="unit">บาท/${p.unit||'ชิ้น'}</span></div><button class="add" onclick="addCart(${p.id})">+ เพิ่ม</button></div></div></article>`}
+function showShop(category='ทั้งหมด',search=''){let cats=['ทั้งหมด','ลูกชิ้นหมู','ลูกชิ้นเนื้อและไก่','ลูกชิ้นปลาและอาหารทะเล','ไส้กรอกและของแปรรูป','น้ำจิ้มและน้ำซุป','เมนูพร้อมทาน','อาหารแช่แข็ง'];let list=products.filter(p=>(category==='ทั้งหมด'||p.category===category)&&(!search||(`${p.name} ${p.category} ${p.desc||''}`).toLowerCase().includes(search.toLowerCase())));document.getElementById('app').innerHTML=`<div class="hero"><div class="heroBox"><div class="heroText"><span class="pill">🔥 โปรโมชั่นพิเศษจากร้าน</span><h1>อร่อยง่าย ๆ ส่งตรงจากร้านสมศรี 2000</h1><p>เลือกซื้อ ลูกชิ้น ของแปรรูป น้ำจิ้ม เมนูพร้อมทาน และอาหารแช่แข็งได้ในที่เดียว</p><button class="cta" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">ช้อปสินค้าเลย →</button></div></div></div><div class="wrap"><section class="section"><div class="sectionHead"><div><h2>เลือกตามหมวดหมู่</h2><span class="muted">ค้นหาสินค้าที่คุณต้องการได้ง่าย</span></div></div><div class="chips">${cats.map(c=>`<button class="chip ${c===category?'active':''}" onclick="showShop('${c}')">${c==='อาหารแช่แข็ง'?'❄️ ':''}${c}</button>`).join('')}</div></section><section class="section" id="products"><div class="sectionHead"><div><h2>${search?'ผลการค้นหา':'สินค้าแนะนำ'}</h2><span class="muted">${list.length} รายการ</span></div><select class="chip" onchange="sortProducts(this.value,'${category}','${search}')"><option value="recommended">เรียง: แนะนำ</option><option value="low">ราคาต่ำ → สูง</option><option value="high">ราคาสูง → ต่ำ</option></select></div><div class="grid">${list.map(productCard).join('')}</div>${!list.length?'<div class="empty"><div class="ico">🔎</div><h3>ไม่พบสินค้าที่ค้นหา</h3><p class="muted">ลองใช้คำค้นหาอื่น</p></div>':''}</section><div class="banner"><div><b>❄️ อาหารแช่แข็ง พร้อมปรุง</b><div class="muted">สะดวก ประหยัดเวลา เหมาะสำหรับทำอาหารที่บ้าน</div></div><button class="primary" onclick="showShop('อาหารแช่แข็ง')">ดูอาหารแช่แข็ง</button></div></div>`}
+function sortProducts(v,c,s){let old=products;products=[...products];if(v==='low')products.sort((a,b)=>a.price-b.price);if(v==='high')products.sort((a,b)=>b.price-a.price);showShop(c,s);products=old}
+function searchProducts(){let q=document.getElementById('search').value.trim();showShop('ทั้งหมด',q)}function addCart(id){let x=cart.find(a=>a.id===id);x?x.qty++:cart.push({id,qty:1});save();toast('เพิ่มสินค้าในตะกร้าแล้ว 🛒')}
+function showCart(){let total=cart.reduce((s,x)=>s+(products.find(p=>p.id==x.id)?.price||0)*x.qty,0);document.getElementById('app').innerHTML=`<div class="wrap"><section class="section"><div class="sectionHead"><div><h2>🛒 ตะกร้าสินค้าของคุณ</h2><span class="muted">ตรวจสอบรายการก่อนยืนยันคำสั่งซื้อ</span></div></div>${cart.length?`<div class="card">${cart.map(x=>{let p=products.find(a=>a.id==x.id);return `<div class="cartrow"><img src="${p.img}"><div><b>${p.name}</b><div class="muted">${money(p.price)}/${p.unit||'ชิ้น'}</div></div><div class="qty"><button onclick="changeQty(${x.id},-1)">−</button><b>${x.qty}</b><button onclick="changeQty(${x.id},1)">+</button></div><div class="lineprice"><b>${money(p.price*x.qty)}</b><br><button class="danger" onclick="removeCart(${x.id})">ลบ</button></div></div>`}).join('')}<div class="totalbox"><div class="row" style="justify-content:space-between"><span>จำนวนสินค้า</span><b>${cart.reduce((a,b)=>a+b.qty,0)} ชิ้น</b></div><div class="row" style="justify-content:space-between;margin-top:7px"><span>ยอดรวม</span><strong style="font-size:24px;color:var(--brand)">${money(total)}</strong></div><div class="row" style="justify-content:flex-end;margin-top:14px"><button class="secondary" onclick="showShop()">เลือกสินค้าเพิ่ม</button><button class="primary" onclick="checkout()">ดำเนินการสั่งซื้อ →</button></div></div></div>`:`<div class="empty"><div class="ico">🛒</div><h3>ตะกร้าของคุณยังว่าง</h3><p class="muted">เลือกสินค้าแล้วกด “+ เพิ่ม” เพื่อเริ่มสั่งซื้อ</p><button class="primary" onclick="showShop()">เลือกซื้อสินค้า</button></div>`}</section></div>`}
+function changeQty(id,n){let x=cart.find(a=>a.id===id);if(x){x.qty+=n;if(x.qty<=0)cart=cart.filter(a=>a.id!==id)}save();showCart()}function removeCart(id){cart=cart.filter(a=>a.id!==id);save();showCart()}
+function checkout(){if(!user){openLogin('กรุณาเข้าสู่ระบบก่อนสั่งซื้อ');return}let total=cart.reduce((s,x)=>s+(products.find(p=>p.id==x.id)?.price||0)*x.qty,0);openModal(`<button class="close" onclick="closeModal()">×</button><h2>📦 ยืนยันคำสั่งซื้อ</h2><p class="muted">บัญชีลูกค้า: ${user.name} · ${user.email}</p><p class="muted">ตรวจสอบข้อมูลจัดส่งก่อนกดยืนยัน</p><div class="field"><label>ชื่อผู้รับ</label><input id="coName" value="${user.name||''}"></div><div class="field"><label>เบอร์โทรศัพท์</label><input id="coPhone" placeholder="08x-xxx-xxxx"></div><div class="field"><label>ที่อยู่จัดส่ง</label><textarea id="coAddress" rows="4" placeholder="บ้านเลขที่ ถนน ตำบล อำเภอ จังหวัด รหัสไปรษณีย์"></textarea></div><div class="totalbox"><div class="row" style="justify-content:space-between"><b>ยอดชำระทั้งหมด</b><strong style="font-size:25px;color:var(--brand)">${money(total)}</strong></div></div><div class="row" style="justify-content:flex-end;margin-top:15px"><button class="secondary" onclick="closeModal()">ย้อนกลับ</button><button class="primary" onclick="placeOrder()">✓ ยืนยันสั่งซื้อ</button></div>`)}
+function placeOrder(){let name=document.getElementById('coName').value.trim(),phone=document.getElementById('coPhone').value.trim(),address=document.getElementById('coAddress').value.trim();if(!name||!phone||!address)return toast('กรุณากรอกข้อมูลให้ครบ');let items=cart.map(x=>({...products.find(p=>p.id===x.id),qty:x.qty}));let total=items.reduce((s,p)=>s+p.price*p.qty,0);let id='SO'+new Date().toISOString().replace(/\D/g,'').slice(0,12);orders.unshift({id,userEmail:user.email,userName:name,phone,address,items,total,status:'รอยืนยัน',created:new Date().toLocaleString('th-TH')});cart=[];save();closeModal();showOrders();toast('สั่งซื้อสำเร็จ เลขที่ '+id)}
+function showOrders(){if(!user){document.getElementById('app').innerHTML='<div class="wrap"><section class="section"><div class="empty"><div class="ico">🔐</div><h3>เข้าสู่ระบบเพื่อดูคำสั่งซื้อ</h3><button class="primary" onclick="openLogin()">เข้าสู่ระบบ</button></div></section></div>';return}let os=orders.filter(o=>o.userEmail===user.email);document.getElementById('app').innerHTML=`<div class="wrap"><section class="section"><div class="sectionHead"><div><h2>🧾 คำสั่งซื้อของฉัน</h2><span class="muted">ติดตามสถานะการสั่งซื้อได้ที่นี่</span></div></div>${os.length?os.map(o=>`<div class="order"><div class="row" style="justify-content:space-between"><div><b>${o.id}</b><div class="muted">${o.created}</div></div><span class="status">${o.status}</span></div><p>${o.items.map(i=>`${i.name} × ${i.qty}`).join(' · ')}</p><div class="row" style="justify-content:space-between"><b>ยอดรวม ${money(o.total)}</b><button class="secondary" onclick="orderDetail('${o.id}')">ดูรายละเอียด</button></div></div>`).join(''):'<div class="empty"><div class="ico">📦</div><h3>ยังไม่มีคำสั่งซื้อ</h3><button class="primary" onclick="showShop()">ไปเลือกสินค้า</button></div>'}</section></div>`}
+function orderDetail(id){let o=orders.find(x=>x.id===id),steps=['รอยืนยัน','กำลังเตรียมสินค้า','กำลังจัดส่ง','จัดส่งแล้ว','สำเร็จ'];let cur=steps.indexOf(o.status);openModal(`<button class="close" onclick="closeModal()">×</button><h2>📦 ${o.id}</h2><div class="muted">${o.created}</div><div class="timeline">${steps.map((s,i)=>`<div class="step ${i<=cur?'done':''}"><div class="dot">${i<=cur?'✓':i+1}</div>${s}</div>`).join('')}</div><h3>รายการสินค้า</h3>${o.items.map(i=>`<div class="row" style="justify-content:space-between;padding:9px 0;border-bottom:1px solid var(--line)"><span>${i.name} × ${i.qty}</span><b>${money(i.price*i.qty)}</b></div>`).join('')}<h3 style="text-align:right;color:var(--brand)">รวม ${money(o.total)}</h3><p><b>ผู้รับ:</b> ${o.userName}<br><b>โทร:</b> ${o.phone}<br><b>ที่อยู่:</b> ${o.address}</p>`)}
+function openLogin(msg=''){
+if(user?.role==='customer'){
+openModal(`<button class="close" onclick="closeModal()">×</button>
+<h2>👤 บัญชีลูกค้า</h2>
+<p><b>${user.name}</b></p>
+<p class="muted">${user.email}</p>
+<div style="display:grid;gap:9px;margin-top:15px">
+<button class="primary" onclick="closeModal();showOrders()">🧾 ดูคำสั่งซื้อของฉัน</button>
+<button class="secondary" onclick="closeModal();showCart()">🛒 ดูตะกร้าสินค้า</button>
+<button class="danger" onclick="closeModal();logout()">🚪 ออกจากระบบ</button>
+</div>`);return;
+}
+openModal(`<button class="close" onclick="closeModal()">×</button>
+<h2>🔐 เข้าสู่ระบบ</h2>
+${msg?`<p class="muted">${msg}</p>`:''}
+<div class="field"><label>อีเมล</label><input id="email" type="email" autocomplete="username"></div>
+<div class="field"><label>รหัสผ่าน</label><input id="pass" type="password" autocomplete="current-password"></div>
+<button class="primary" onclick="login()">เข้าสู่ระบบ</button>
+<button class="secondary" style="margin-left:7px" onclick="registerForm()">สมัครสมาชิก</button>
+<div style="margin-top:18px;padding:14px;background:#f8fafc;border-radius:12px">
+<b>บัญชีเจ้าหน้าที่</b>
+<div class="muted" style="margin-top:7px">ข้อมูลบัญชีเจ้าหน้าที่ถูกซ่อนไว้เพื่อความปลอดภัย</div>
+</div>`)}
+function registerForm(){openModal(`<button class="close" onclick="closeModal()">×</button>
+<h2>👤 สมัครบัญชีลูกค้า</h2>
+<p class="muted">สำหรับลูกค้าใช้สั่งซื้อสินค้า ดูคำสั่งซื้อ และติดตามสถานะการจัดส่ง</p>
+<div class="field"><label>ชื่อ-นามสกุล</label><input id="rname" autocomplete="name"></div>
+<div class="field"><label>อีเมล</label><input id="remail" type="email" autocomplete="email"></div>
+<div class="field"><label>รหัสผ่าน</label><input id="rpass" type="password" autocomplete="new-password"></div>
+<button class="primary" onclick="register()">สร้างบัญชีลูกค้า</button>
+<button class="secondary" style="margin-left:7px" onclick="openLogin()">กลับเข้าสู่ระบบ</button>`)}
+function login(){
+let email=document.getElementById('email').value.trim().toLowerCase(),pass=document.getElementById('pass').value;
+let account=Object.values(systemAccounts).find(a=>a.email===email&&a.password===pass);
+if(!account) account=staffAccounts.find(a=>a.email===email&&a.password===pass);
+if(account){
+  user={name:account.name,email:account.email,role:account.role};
+  save();closeModal();showAdmin();
+  toast('เข้าสู่ระบบ '+(account.role==='admin'?'แอดมิน':'ผู้ดูแลระบบ')+' สำเร็จ');
+  return;
+}
+let u=users.find(x=>x.email===email&&x.password===pass);
+if(!u)return toast('อีเมลหรือรหัสผ่านไม่ถูกต้อง');
+user={name:u.name,email:u.email,role:'customer'};
+save();closeModal();showShop();toast('เข้าสู่ระบบสำเร็จ');
+}
+function logout(){user=null;save();showShop();toast('ออกจากระบบแล้ว')}
+function register(){let name=document.getElementById('rname').value.trim(),email=document.getElementById('remail').value.trim().toLowerCase(),pass=document.getElementById('rpass').value;if(!name||!email||!pass)return toast('กรุณากรอกข้อมูลให้ครบ');if(users.some(x=>x.email===email)||Object.values(systemAccounts).some(a=>a.email===email))return toast('อีเมลนี้มีอยู่แล้ว');users.push({name,email,password:pass,created:new Date().toLocaleString('th-TH')});user={name,email};save();closeModal();showShop();toast('สมัครสมาชิกสำเร็จ')}
+function openModal(x){document.getElementById('modalBox').innerHTML=x;document.getElementById('modal').classList.add('show')}function closeModal(){document.getElementById('modal').classList.remove('show')}
+function showAdmin(){
+if(!isStaff())return openLogin('กรุณาเข้าสู่ระบบเจ้าหน้าที่');
+let revenue=orders.filter(o=>o.status!=='ยกเลิก').reduce((s,o)=>s+o.total,0);
+document.getElementById('app').innerHTML=`<div class="wrap"><section class="section">
+<div class="sectionHead"><div><h2>${user.role==='admin'?'⚙️ แดชบอร์ดแอดมิน':'🛡️ แดชบอร์ดผู้ดูแลระบบ'}</h2>
+<span class="muted">เข้าสู่ระบบในสิทธิ์: <b>${user.role==='admin'?'แอดมิน':'ผู้ดูแลระบบ'}</b></span></div>
+<button class="secondary" onclick="logout()">🚪 ออกจากระบบ</button></div>
+<div class="adminStats">
+<div class="stat">ออเดอร์ทั้งหมด<b>${orders.length}</b></div>
+<div class="stat">ยอดขายรวม<b>${money(revenue)}</b></div>
+<div class="stat">สมาชิก<b>${users.length}</b></div>
+<div class="stat">สินค้า<b>${products.length}</b></div>
+</div>
+<div class="chips" style="margin:22px 0">
+<button class="chip active" onclick="adminOrders()">📋 ออเดอร์</button>
+${user.role==='admin'?'<button class="chip" onclick="adminProducts()">📦 สินค้า</button><button class="chip" onclick="adminMembers()">👥 สมาชิก</button><button class="chip" onclick="adminAccounts()">🔐 บัญชีเจ้าหน้าที่</button>':''}
+</div><div id="adminPanel"></div></section></div>`;
+adminOrders()
+}
+function adminOrders(){if(!canManageOrders())return;document.getElementById('adminPanel').innerHTML=`<div class="tablewrap"><table><tr><th>เลขออเดอร์</th><th>ลูกค้า</th><th>ยอด</th><th>สถานะ</th><th>ดู</th></tr>${orders.map(o=>`<tr><td><b>${o.id}</b><br><span class="muted">${o.created}</span></td><td>${o.userName}<br>${o.phone}</td><td><b>${money(o.total)}</b></td><td><select onchange="setStatus('${o.id}',this.value)">${['รอยืนยัน','กำลังเตรียมสินค้า','กำลังจัดส่ง','จัดส่งแล้ว','สำเร็จ','ยกเลิก'].map(s=>`<option ${s===o.status?'selected':''}>${s}</option>`).join('')}</select></td><td><button class="secondary" onclick="orderDetail('${o.id}')">ดู</button></td></tr>`).join('')}</table></div>`}function setStatus(id,s){if(!canManageOrders())return toast('ไม่มีสิทธิ์แก้ไขสถานะออเดอร์');let o=orders.find(x=>x.id===id);if(o)o.status=s;save();adminOrders();toast('อัปเดตสถานะแล้ว')}
+function adminProducts(){
+if(!canManageProducts())return toast('เฉพาะแอดมินเท่านั้นที่จัดการสินค้าได้');
+document.getElementById('adminPanel').innerHTML=`<div class="card"><h3>📦 จัดการสินค้าและรูปภาพ</h3><p class="muted">แอดมินสามารถเปลี่ยนรูปสินค้าด้วย URL หรือเลือกไฟล์รูปจากเครื่องได้ รูปที่เลือกจะถูกบันทึกไว้ในเบราว์เซอร์เครื่องนี้</p><h3>➕ เพิ่มสินค้า</h3><div class="row" style="flex-wrap:wrap"><input id="pname" placeholder="ชื่อสินค้า"><input id="pprice" type="number" placeholder="ราคา"><input id="pimg" placeholder="URL รูปภาพ" style="flex:1"><button class="primary" onclick="addProduct()">เพิ่มสินค้า</button></div><div class="tablewrap" style="margin-top:18px"><table><tr><th>ภาพ</th><th>สินค้า</th><th>หมวด</th><th>ราคา</th><th>เปลี่ยนภาพ</th><th>การจัดการ</th></tr>${products.map(p=>`<tr><td><img class="adminImg" src="${p.img}" onerror="this.src='https://via.placeholder.com/120x100?text=No+Image'"></td><td>${p.name}</td><td>${p.category||'-'}</td><td>${money(p.price)}</td><td><div class="imgActions"><input id="url_${p.id}" value="${(p.img||'').replace(/"/g,'&quot;')}" placeholder="วาง URL รูปภาพ" style="min-width:180px"><button class="secondary" onclick="changeProductImage(${p.id})">บันทึก URL</button><label class="filebtn">📷 เลือกไฟล์<input type="file" accept="image/*" onchange="uploadProductImage(${p.id},this)"></label></div></td><td><button class="danger" onclick="deleteProduct(${p.id})">ลบ</button></td></tr>`).join('')}</table></div></div>`
+}
+function changeProductImage(id){
+if(!canManageProducts())return toast('เฉพาะแอดมินเท่านั้น');
+let p=products.find(x=>x.id===id),url=document.getElementById('url_'+id)?.value.trim();
+if(!p||!url)return toast('กรุณาใส่ URL รูปภาพ');
+p.img=url;save();adminProducts();toast('เปลี่ยนรูปสินค้าแล้ว');
+}
+function uploadProductImage(id,input){
+if(!canManageProducts())return toast('เฉพาะแอดมินเท่านั้น');
+let file=input.files&&input.files[0];if(!file)return;
+if(!file.type.startsWith('image/'))return toast('กรุณาเลือกไฟล์รูปภาพ');
+let reader=new FileReader();reader.onload=e=>{let img=new Image();img.onload=()=>{let max=1000,scale=Math.min(1,max/Math.max(img.width,img.height)),w=Math.max(1,Math.round(img.width*scale)),h=Math.max(1,Math.round(img.height*scale)),c=document.createElement('canvas');c.width=w;c.height=h;let ctx=c.getContext('2d');ctx.drawImage(img,0,0,w,h);let data=c.toDataURL('image/jpeg',0.82);let p=products.find(x=>x.id===id);if(!p)return; p.img=data;save();adminProducts();toast('อัปโหลดและเปลี่ยนรูปสินค้าแล้ว')};img.src=e.target.result};reader.readAsDataURL(file);
+}
+function addProduct(){if(!canManageProducts())return toast('เฉพาะแอดมินเท่านั้น');let name=document.getElementById('pname').value.trim(),price=Number(document.getElementById('pprice').value),img=document.getElementById('pimg').value.trim()||'https://via.placeholder.com/800x600?text=Somsri+2000';if(!name||!price)return toast('กรอกชื่อและราคา');products.push({id:Date.now(),name,price,img,category:'สินค้าใหม่',desc:'สินค้าใหม่'});save();adminProducts();toast('เพิ่มสินค้าแล้ว')}
+function deleteProduct(id){if(!canManageProducts())return toast('เฉพาะแอดมินเท่านั้น');if(confirm('ยืนยันลบสินค้า?')){products=products.filter(p=>p.id!==id);save();adminProducts()}}
+function adminMembers(){if(!canManageProducts())return toast('เฉพาะแอดมินเท่านั้น');document.getElementById('adminPanel').innerHTML=`<div class="tablewrap"><table><tr><th>ชื่อ</th><th>อีเมล</th><th>สมัครเมื่อ</th></tr>${users.map(u=>`<tr><td>${u.name}</td><td>${u.email}</td><td>${u.created}</td></tr>`).join('')}</table></div>`}
+function adminAccounts(){
+if(!canManageProducts())return toast('เฉพาะแอดมินเท่านั้นที่จัดการบัญชีเจ้าหน้าที่ได้');
+let staff=[...Object.values(systemAccounts),...staffAccounts];
+document.getElementById('adminPanel').innerHTML=`<div class="card">
+<h3>🔐 จัดการบัญชีเจ้าหน้าที่</h3>
+<p class="muted">แอดมินสามารถสร้างบัญชี แอดมิน หรือ ผู้ดูแลระบบ เพิ่มได้ ข้อมูลรหัสผ่านจะไม่แสดงในรายการ</p>
+<div class="row" style="flex-wrap:wrap;align-items:stretch">
+<input id="sname" placeholder="ชื่อเจ้าหน้าที่">
+<input id="semail" type="email" placeholder="อีเมล">
+<input id="spass" type="password" placeholder="รหัสผ่าน">
+<select id="srole"><option value="manager">ผู้ดูแลระบบ</option><option value="admin">แอดมิน</option></select>
+<button class="primary" onclick="createStaffAccount()">➕ สร้างบัญชี</button>
+</div>
+<div class="tablewrap" style="margin-top:18px"><table><tr><th>ชื่อ</th><th>อีเมล</th><th>สิทธิ์</th><th>การจัดการ</th></tr>${staff.map(a=>`<tr><td>${a.name}</td><td>${a.email}</td><td>${a.role==='admin'?'⚙️ แอดมิน':'🛡️ ผู้ดูแลระบบ'}</td><td>${staffAccounts.some(x=>x.email===a.email)?`<button class="danger" onclick="deleteStaffAccount('${a.email}')">ลบ</button>`:'<span class="muted">บัญชีระบบ</span>'}</td></tr>`).join('')}</table></div>
+<div class="banner"><div><b>⚠️ ความปลอดภัย</b><div class="muted">บัญชีเจ้าหน้าที่ที่สร้างใหม่เก็บอยู่ใน LocalStorage ของเบราว์เซอร์ เหมาะสำหรับเดโม/ใช้งานบนเครื่องเดียว หากใช้งานจริงควรย้ายระบบบัญชีไป Backend และเข้ารหัสรหัสผ่าน</div></div></div>
+</div>`;
+}
+function createStaffAccount(){
+if(!canManageProducts())return toast('เฉพาะแอดมินเท่านั้น');
+let name=document.getElementById('sname').value.trim(),email=document.getElementById('semail').value.trim().toLowerCase(),pass=document.getElementById('spass').value,role=document.getElementById('srole').value;
+if(!name||!email||!pass)return toast('กรุณากรอกข้อมูลให้ครบ');
+if(pass.length<6)return toast('รหัสผ่านควรมีอย่างน้อย 6 ตัวอักษร');
+if(users.some(x=>x.email===email)||Object.values(systemAccounts).some(a=>a.email===email)||staffAccounts.some(a=>a.email===email))return toast('อีเมลนี้มีอยู่แล้ว');
+staffAccounts.push({name,email,password:pass,role,created:new Date().toLocaleString('th-TH')});save();adminAccounts();toast('สร้างบัญชีเจ้าหน้าที่สำเร็จ');
+}
+function deleteStaffAccount(email){
+if(!canManageProducts())return toast('เฉพาะแอดมินเท่านั้น');
+if(confirm('ยืนยันลบบัญชีเจ้าหน้าที่นี้?')){staffAccounts=staffAccounts.filter(a=>a.email!==email);save();adminAccounts();toast('ลบบัญชีแล้ว')}
+}
+document.getElementById('modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});updateHeader();showShop();
+</script>
+</body></html>
